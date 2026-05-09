@@ -1,0 +1,59 @@
+name: Sync Packwiz Modpack
+
+on:
+  push:
+    paths:
+      - "mods.json"
+      - "scripts/sync-mods.sh"
+      - ".github/workflows/sync-modpack.yml"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: Install packwiz
+        run: |
+          set -euo pipefail
+
+          curl -L https://github.com/packwiz/packwiz/releases/latest/download/packwiz_linux_amd64.tar.gz -o packwiz.tar.gz
+          mkdir -p "$HOME/.local/bin"
+          tar -xzf packwiz.tar.gz -C "$HOME/.local/bin"
+          chmod +x "$HOME/.local/bin/packwiz"
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Sync mods
+        run: |
+          chmod +x scripts/sync-mods.sh
+          ./scripts/sync-mods.sh mods.json
+
+      - name: Commit changes
+        if: always()
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add pack.toml index.toml mods mods.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Sync packwiz modpack"
+            git push
+          fi

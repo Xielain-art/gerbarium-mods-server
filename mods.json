@@ -1,0 +1,94 @@
+{
+    "mods": [
+        {
+            "url": "https://modrinth.com/mod/immersive-weathering",
+            "client": true,
+            "server": true
+        },
+        {
+            "url": "https://modrinth.com/mod/winter-overhaul",
+            "client": true,
+            "server": true
+        },
+        {
+            "url": "https://modrinth.com/mod/naturalist",
+            "client": true,
+            "server": true
+        },
+        {
+            "url": "https://modrinth.com/mod/frostiful",
+            "client": true,
+            "server": true
+        },
+        {
+            "url": "https://modrinth.com/mod/amendments",
+            "client": true,
+            "server": true
+        },
+        {
+            "url": "https://modrinth.com/mod/clumps",
+            "client": false,
+            "server": true
+        },
+        {
+            "url": "https://modrinth.com/mod/dehydration",
+            "client": true,
+            "server": true
+        },
+        {
+            "url": "https://modrinth.com/mod/yigd",
+            "client": true,
+            "server": true
+        },
+        {
+            "url": "https://modrinth.com/mod/fabric-seasons",
+            "client": true,
+            "server": true
+        },
+        {
+            "url": "https://modrinth.com/mod/yungs-better-dungeons",
+            "client": false,
+            "server": true
+        },
+        {
+            "url": "https://modrinth.com/mod/regions-unexplored",
+            "client": true,
+            "server": true
+        },
+        {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/betteranimalsplus",
+            "client": true,
+            "server": true
+        },
+        {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/architectury-api",
+            "client": true,
+            "server": true
+        },
+        {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/alexs-mobs-fabric",
+            "client": true,
+            "server": true
+        },
+        {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/citadel-fabric",
+            "client": true,
+            "server": true
+        },
+        {
+            "url": "https://modrinth.com/mod/ambientsounds",
+            "client": true,
+            "server": false
+        },
+        {
+            "url": "https://modrinth.com/mod/boat-item-view",
+            "client": true,
+            "server": false
+        },
+        {
+            "url": "https://modrinth.com/mod/fallingleaves",
+            "client": true,
+            "server": false
+        }
+    ]
+}
