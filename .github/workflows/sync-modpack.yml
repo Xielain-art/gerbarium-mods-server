@@ -20,21 +20,54 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.24.x"
+
+      - name: Cache Go packages
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/go/pkg/mod
+            ~/.cache/go-build
+          key: ${{ runner.os }}-go-packwiz-${{ hashFiles('.github/workflows/sync-modpack.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-go-packwiz-
+
+      - name: Cache packwiz binary
+        id: cache-packwiz
+        uses: actions/cache@v4
+        with:
+          path: ~/.local/bin/packwiz
+          key: ${{ runner.os }}-packwiz-latest-v1
+
+      - name: Install packwiz
+        if: steps.cache-packwiz.outputs.cache-hit != 'true'
+        run: |
+          set -euo pipefail
+
+          mkdir -p "$HOME/.local/bin"
+
+          go install github.com/packwiz/packwiz@latest
+
+          cp "$(go env GOPATH)/bin/packwiz" "$HOME/.local/bin/packwiz"
+          chmod +x "$HOME/.local/bin/packwiz"
+
+      - name: Add packwiz to PATH
+        run: |
+          set -euo pipefail
+
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+          "$HOME/.local/bin/packwiz" --version
+
       - name: Install dependencies
         run: |
           set -euo pipefail
+
           sudo apt-get update
           sudo apt-get install -y jq
-
-      - name: Install packwiz
-        run: |
-          set -euo pipefail
-
-          curl -L https://github.com/packwiz/packwiz/releases/latest/download/packwiz_linux_amd64.tar.gz -o packwiz.tar.gz
-          mkdir -p "$HOME/.local/bin"
-          tar -xzf packwiz.tar.gz -C "$HOME/.local/bin"
-          chmod +x "$HOME/.local/bin/packwiz"
-          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
 
       - name: Sync mods
         run: |
