@@ -2,45 +2,50 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/chunky.pw.toml"
-hash = "b1581bbfae9d16690f4022536da6567f000130c4ea5e04d92177c1bc61fea709"
+hash = "bc7ae7d875a746169bb278200c5635fbc3ceb9a061e6bf4fe2e684091fab71a7"
 metafile = true
 
 [[files]]
 file = "mods/dynmap.pw.toml"
-hash = "323098a70e9ca81ff6a825ec8025f43e61a3e25a834bb7c9b8a9f29673970e64"
+hash = "89be98ebdd1530b21d695bd5a76396c0aa494e9432a1508e7bae848d6c10cbb0"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "54a806dbb8f15f8acd7a7d1dc528ce6242acfd8567784e96477d3026798718ae"
+hash = "4fe2a4c2d7a92616d1bab5a0c7d618d7ccdc1c451b7fcbf157f786433ee4b710"
 metafile = true
 
 [[files]]
 file = "mods/fabricproxy-lite.pw.toml"
-hash = "4a35e5e9d37fb810998466578339831f0c7d516b6353f537d1b1be04f838d399"
+hash = "489bafff29f38923cff39cc048c3414d388c036e109cbb1385295eb463eb9377"
 metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-hash = "86cbfa8adbbb8be527f95aca49b427f892aa780773df141dfd7f4ffd02740bbd"
+hash = "7c80079f8907c29bba18bd6bfd1eeeade4be790a39ff0e358d6e72441dd8108f"
 metafile = true
 
 [[files]]
 file = "mods/krypton.pw.toml"
-hash = "9063bac3fdf585a43d318e3f9773475a28ecb8fe80bc7689cc480851eef97420"
+hash = "4fb1efcf4c3c16eac7382421134d6472130884b9e4dd2a57fe0eb62c47203173"
 metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "c8695e51366b601c5e9118a5d5650d234cc25fc8d1f90ebd186c17c199ba7fca"
+hash = "3d21f13970fdd89524a8e0520c8a6ec774a6fe4b37b49d295e956e17dc9ffadc"
 metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "0d438cc5a467aae6a9aa439a4547f990dfbaa4dc4e7bf5dbabf6d6e839411e83"
+hash = "fd154e3e5956017a5fdff17b150e91a3ba607897d4b01382a9194a197a3153ee"
 metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "f010bbe486733738e92241d10f403e28a8feeb40b45ec3af3b2270523f955216"
+hash = "269acb427f14832a51eea0f70c4e6039a7cf8747e12b70efc16eed74ec64f977"
+metafile = true
+
+[[files]]
+file = "mods/tab-bridge.pw.toml"
+hash = "204c2fc20548a5d522f9ed5622ccf61eb82668390bd6f0012829c3e879d8a805"
 metafile = true
