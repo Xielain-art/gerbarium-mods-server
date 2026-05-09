@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - "mods.json"
-      - "scripts/sync-mods.sh"
+      - "scripts/install-from-links.sh"
       - ".github/workflows/sync-modpack.yml"
 
   workflow_dispatch:
@@ -73,8 +73,8 @@ jobs:
 
       - name: Sync mods
         run: |
-          chmod +x scripts/sync-mods.sh
-          ./scripts/sync-mods.sh mods.json
+          chmod +x scripts/install-from-links.sh
+          ./scripts/install-from-links.sh mods.json
 
       - name: Commit changes
         if: always()
