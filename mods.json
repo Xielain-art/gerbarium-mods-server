@@ -56,11 +56,6 @@
             "server": true
         },
         {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/betteranimalsplus",
-            "client": true,
-            "server": true
-        },
-        {
             "url": "https://www.curseforge.com/minecraft/mc-mods/architectury-api",
             "client": true,
             "server": true
