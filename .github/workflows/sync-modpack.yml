@@ -60,7 +60,9 @@ jobs:
 
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
 
-          "$HOME/.local/bin/packwiz" --version
+          "$HOME/.local/bin/packwiz" --help >/dev/null
+
+          echo "✅ packwiz installed"
 
       - name: Install dependencies
         run: |
