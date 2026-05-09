@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/sync-modpack.yml"
-hash = "26bfea2d1650fca3467955c3ff19c903284a8664d490d85f6fc32028f02357c6"
-
-[[files]]
-file = "mods.json"
-hash = "eb62c5c1e51ca2b719e0c71454b881aaa5ba101a0079fc230cf06d4f243ffa9c"
-
-[[files]]
 file = "mods/ambientsounds.pw.toml"
 hash = "fd5250ec5868a1475ae5a82c7d58f83a459b1e7b58e3468c5cad060df7da3090"
 metafile = true
@@ -172,7 +164,3 @@ metafile = true
 file = "mods/yungs-better-dungeons.pw.toml"
 hash = "660ec443fe901efb46da60ef5f4578fe5d20f5aa7c6aa3baf2199593019514f0"
 metafile = true
-
-[[files]]
-file = "scripts/install-from-links.sh"
-hash = "7b36011dea8c4ab2666fdf4233975d81ca711787c62024f4d2fda7d7df0d2e93"
