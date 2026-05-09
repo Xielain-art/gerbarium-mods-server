@@ -61,16 +61,6 @@
             "server": true
         },
         {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/alexs-mobs-fabric",
-            "client": true,
-            "server": true
-        },
-        {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/citadel-fabric",
-            "client": true,
-            "server": true
-        },
-        {
             "url": "https://modrinth.com/mod/ambientsounds",
             "client": true,
             "server": false
