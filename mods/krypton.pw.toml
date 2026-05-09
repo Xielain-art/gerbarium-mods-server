@@ -1,4 +1,4 @@
-name = "Krypton"
+﻿name = "Krypton"
 filename = "krypton-0.2.3.jar"
 side = "both"
 
@@ -11,3 +11,4 @@ hash = "92b73a70737cfc1daebca211bd1525de7684b554be392714ee29cbd558f2a27a8bdda22a
 [update.modrinth]
 mod-id = "fQEb0iXm"
 version = "jiDwS0W1"
+

@@ -1,4 +1,4 @@
-name = "spark"
+﻿name = "spark"
 filename = "spark-1.10.53-fabric.jar"
 side = "both"
 
@@ -11,3 +11,4 @@ hash = "ce6e8f7071bb37369ad3e90d844926b424e82d0fe0ffd0db7058abddc9cfcdd594e145c9
 [update.modrinth]
 mod-id = "l6YH9Als"
 version = "XGW2fviP"
+

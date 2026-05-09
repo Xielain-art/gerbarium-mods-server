@@ -1,4 +1,4 @@
-name = "ModernFix"
+﻿name = "ModernFix"
 filename = "modernfix-fabric-5.25.2+mc1.20.1.jar"
 side = "both"
 
@@ -11,3 +11,4 @@ hash = "878e39d182767ffd08ad6a3539fae780739129db133abe02b9b73dc3df6e1ac9ddbe5096
 [update.modrinth]
 mod-id = "nmDcB62a"
 version = "rPmgLeZC"
+

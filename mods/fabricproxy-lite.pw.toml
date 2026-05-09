@@ -1,4 +1,4 @@
-name = "FabricProxy-Lite"
+﻿name = "FabricProxy-Lite"
 filename = "FabricProxy-Lite-2.6.0.jar"
 side = "server"
 
@@ -11,3 +11,4 @@ hash = "365d29ebaeca55ffdaa4d066141559b00e3177437b0d9fabee3996fcdbd8e2fb8ae45c0c
 [update.modrinth]
 mod-id = "8dI2tmqs"
 version = "XJmDAnj5"
+
