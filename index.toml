@@ -6,12 +6,7 @@ hash = "26bfea2d1650fca3467955c3ff19c903284a8664d490d85f6fc32028f02357c6"
 
 [[files]]
 file = "mods.json"
-hash = "8037d17d0f9396829ad6ac0426eb3b2095f3a0c30f97581cef8e7f9c9c9703f0"
-
-[[files]]
-file = "mods/alexs-mobs-fabric.pw.toml"
-hash = "a56ec87a9b09ebc864ea81553d22d3a595e837530e66c19091440897af7c8855"
-metafile = true
+hash = "eb62c5c1e51ca2b719e0c71454b881aaa5ba101a0079fc230cf06d4f243ffa9c"
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
@@ -36,11 +31,6 @@ metafile = true
 [[files]]
 file = "mods/chunky.pw.toml"
 hash = "13d2724dde02ec528e088e9f74529f967e20134c4ae33caf1c82ab8586dc85bc"
-metafile = true
-
-[[files]]
-file = "mods/citadel-fabric.pw.toml"
-hash = "67677a6d3397c44f6e59eda6061ee950fce9feb5a2eb89c3a7e527d478fd773c"
 metafile = true
 
 [[files]]
