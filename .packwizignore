@@ -1,0 +1,10 @@
+.github/
+scripts/
+mods.json
+mods-links.txt
+
+.git/
+.gitignore
+.gitattributes
+
+README.md
