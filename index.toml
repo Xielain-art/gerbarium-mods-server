@@ -1,18 +1,81 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/sync-modpack.yml"
+hash = "12453ee2ae747e913e08661b10d325a9a54ab372232a1991ab3dba1f3c9f0398"
+
+[[files]]
+file = "mods.json"
+hash = "ddda709fe418812aa4b0992add1a9a6059b1686ab4137be3707dbc762e0b16da"
+
+[[files]]
+file = "mods/alexs-mobs-fabric.pw.toml"
+hash = "a56ec87a9b09ebc864ea81553d22d3a595e837530e66c19091440897af7c8855"
+metafile = true
+
+[[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "e3714f163dd8d1751d186221ad0049dc5719a2d6537ddfbc4e3403f769cffe2c"
+metafile = true
+
+[[files]]
+file = "mods/amendments.pw.toml"
+hash = "f7933fc2034c3eb8601f3eddaa75f03d0a3f68dce19ee553aed57d35163cb21a"
+metafile = true
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "2492a7266fab4c2ff411612180974b98510afb66a18e640f4de63ad615dd1e9e"
+metafile = true
+
+[[files]]
+file = "mods/boat-item-view.pw.toml"
+hash = "d6878871a07870b33821beed20118368e779c17574062d5d771eb38b9403e875"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
-hash = "6ee5fbe64ee5f356ad8960fe7504518eaf62b6ff6b1454ff1f673c1a4af6cd89"
+hash = "13d2724dde02ec528e088e9f74529f967e20134c4ae33caf1c82ab8586dc85bc"
+metafile = true
+
+[[files]]
+file = "mods/citadel-fabric.pw.toml"
+hash = "67677a6d3397c44f6e59eda6061ee950fce9feb5a2eb89c3a7e527d478fd773c"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "41a3dc271859b118417946d2fdb2408523563b2f4f49048073672a342fb1aebf"
+metafile = true
+
+[[files]]
+file = "mods/clumps.pw.toml"
+hash = "15385164e2cd07cce7493a10d6d87df5c7bce587a866613126be3b54b6b28fc7"
+metafile = true
+
+[[files]]
+file = "mods/creativecore.pw.toml"
+hash = "22ea62bf986d0de86f7acf09cd7226026e95ad8c1126ac124ca96126927802a3"
+metafile = true
+
+[[files]]
+file = "mods/dehydration.pw.toml"
+hash = "4ffee411da4fc66404fcc3211efc76c11e5301dfec6628d65a2178b901b8474d"
 metafile = true
 
 [[files]]
 file = "mods/dynmap.pw.toml"
-hash = "ea871294a306560826bddb08e3ee5217867e9693fc77028df62369de5710f0c5"
+hash = "f87d6684e5f3ac231d2d08c40ff89112c5ed18816426987f948ccedcdf9441bd"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "b9f5aa25789de9f187d42226a72451a43f5c02b8f076d3239177063a7ffffe2e"
+hash = "54a806dbb8f15f8acd7a7d1dc528ce6242acfd8567784e96477d3026798718ae"
+metafile = true
+
+[[files]]
+file = "mods/fabric-seasons.pw.toml"
+hash = "ce276e188fa22c4b8e4a99a0558844284fff7d49af2c5e6683290eaa598a7c61"
 metafile = true
 
 [[files]]
@@ -21,13 +84,38 @@ hash = "86182ba02e03a0ee95cd32548cf0e46991b06e4888a067d1a3ebf39f66c192f3"
 metafile = true
 
 [[files]]
+file = "mods/fallingleaves.pw.toml"
+hash = "fff1e00559f13c092b17fa83804279cf70191d7a99a4a98a4eb6bb30ac9a78db"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "0bda2bc07cae83e84c7f83617670587ce763ecaa77798b68dd7ce58ab9efc9d4"
 metafile = true
 
 [[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "adea09f1e1b05da68cf7407992a9391b15985acf5465a888e54ae076dbd543ab"
+metafile = true
+
+[[files]]
+file = "mods/frostiful.pw.toml"
+hash = "f369254990a7c1c4e3c0e80ff7971badbfa57840a36c2f4d238b4d3328d94cfa"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "3ba1f8150b574b10a258a4af832ed6fa1817b8ec2a2401fe29b303238778c1c6"
+metafile = true
+
+[[files]]
+file = "mods/immersive-weathering.pw.toml"
+hash = "b98e57540394632b45e59d4f8f9b78f217cbd2935400a6081382968745054776"
+metafile = true
+
+[[files]]
 file = "mods/krypton.pw.toml"
-hash = "e1de400aa9339a9e7f1baf4e04a8d812c1b4cc89d7755846cdf115fd7d270425"
+hash = "37a7d1027ff7e8cf88ae180a31de5a17f4b71f13b2f0d9b132b7d6222f58a1a1"
 metafile = true
 
 [[files]]
@@ -41,11 +129,60 @@ hash = "ac480c46da70f99ce7e197d2006f127575529330ac2a3b16559a03a4d17fca86"
 metafile = true
 
 [[files]]
+file = "mods/moonlight.pw.toml"
+hash = "9df70e05075bc6e043d9defcd67e9596235ca7667acba8ea64f2cbe5f27eab0b"
+metafile = true
+
+[[files]]
+file = "mods/naturalist.pw.toml"
+hash = "2149e8ba3fc2c56905e6bbc06efd4ece5999d8babea605386ec5bd1af26aef90"
+metafile = true
+
+[[files]]
+file = "mods/regions-unexplored.pw.toml"
+hash = "1dec5eab016f2b91c2b4c39cb6d0c3f9c9e0f41de359670e9518078dd788240f"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
-hash = "0486c6b7f28a5250d8db2701b897bbeaf07cb00cd5d8c8ad5e48aba2ed85ad40"
+hash = "affac050ad62de53565a40533d7facd8346a395fb66c0e2befceaa6f8d4e2911"
 metafile = true
 
 [[files]]
 file = "mods/tab-bridge.pw.toml"
-hash = "204c2fc20548a5d522f9ed5622ccf61eb82668390bd6f0012829c3e879d8a805"
+hash = "2eace99691edfacc4d88bc58a9bc1e72f4eb80d1098a217b0fd3326f222b6a59"
 metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "b3ae602303fd717bff2344bfb89aa427e2b4a1ab5fffdcc25183b22102c492df"
+metafile = true
+
+[[files]]
+file = "mods/thermoo.pw.toml"
+hash = "5e6b7f02205f1f3d3447e6456ab7ccdf5857e68b8ba7671985412cdbee908710"
+metafile = true
+
+[[files]]
+file = "mods/winter-overhaul.pw.toml"
+hash = "91b8d6b01c363cf2e593e5d8725e6b0aaa61347e4fa2a19575e9ed16f1633dff"
+metafile = true
+
+[[files]]
+file = "mods/yigd.pw.toml"
+hash = "fc1d7a1ee1bb2d4906b2686d105c82b67297e8a8376bd3882fea0fdb7e6499eb"
+metafile = true
+
+[[files]]
+file = "mods/yungs-api.pw.toml"
+hash = "95940b5fc72e8df82ab3adb72b43d10a37e6d926fbb37c405c9fe50bda27a991"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-dungeons.pw.toml"
+hash = "0958d9f10d0e8fb282b8e684b05b37b29aca826d48deeec3e44171857c99aca5"
+metafile = true
+
+[[files]]
+file = "scripts/install-from-links.sh"
+hash = "a092ec6e73639a9c842f64bfbfd4367dc4db73f1bd8e384d0d6f0fb830ca2f63"

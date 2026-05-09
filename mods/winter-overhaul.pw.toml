@@ -1,0 +1,13 @@
+name = "Winter Overhaul"
+filename = "WinterOverhaul-Fabric-3.0.2+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5M97aUS6/versions/5vejO6hJ/WinterOverhaul-Fabric-3.0.2%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "43dd7d3ac69627e63e6f9fd5b8dc2647d481492efac83d2b69aa334d487176f2882d40a608cf075abe5cee16eeaa0c26b6ca2568fba7ff3760fcebb35e3d0e70"
+
+[update]
+[update.modrinth]
+mod-id = "5M97aUS6"
+version = "5vejO6hJ"
