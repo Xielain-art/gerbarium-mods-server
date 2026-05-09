@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = ".github/workflows/sync-modpack.yml"
-hash = "12453ee2ae747e913e08661b10d325a9a54ab372232a1991ab3dba1f3c9f0398"
+hash = "26bfea2d1650fca3467955c3ff19c903284a8664d490d85f6fc32028f02357c6"
 
 [[files]]
 file = "mods.json"
-hash = "ddda709fe418812aa4b0992add1a9a6059b1686ab4137be3707dbc762e0b16da"
+hash = "8037d17d0f9396829ad6ac0426eb3b2095f3a0c30f97581cef8e7f9c9c9703f0"
 
 [[files]]
 file = "mods/alexs-mobs-fabric.pw.toml"
@@ -15,7 +15,7 @@ metafile = true
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
-hash = "e3714f163dd8d1751d186221ad0049dc5719a2d6537ddfbc4e3403f769cffe2c"
+hash = "fd5250ec5868a1475ae5a82c7d58f83a459b1e7b58e3468c5cad060df7da3090"
 metafile = true
 
 [[files]]
@@ -30,7 +30,7 @@ metafile = true
 
 [[files]]
 file = "mods/boat-item-view.pw.toml"
-hash = "d6878871a07870b33821beed20118368e779c17574062d5d771eb38b9403e875"
+hash = "b24228a867dd1e0a45ac38b17b91f08780d4ba89c130be6633d1f0f70a6a655d"
 metafile = true
 
 [[files]]
@@ -85,7 +85,7 @@ metafile = true
 
 [[files]]
 file = "mods/fallingleaves.pw.toml"
-hash = "fff1e00559f13c092b17fa83804279cf70191d7a99a4a98a4eb6bb30ac9a78db"
+hash = "83d25d7f9a87040b2453b7eb6448b38fb415031648b76eff0117e150bbdbe472"
 metafile = true
 
 [[files]]
@@ -180,9 +180,9 @@ metafile = true
 
 [[files]]
 file = "mods/yungs-better-dungeons.pw.toml"
-hash = "0958d9f10d0e8fb282b8e684b05b37b29aca826d48deeec3e44171857c99aca5"
+hash = "660ec443fe901efb46da60ef5f4578fe5d20f5aa7c6aa3baf2199593019514f0"
 metafile = true
 
 [[files]]
 file = "scripts/install-from-links.sh"
-hash = "a092ec6e73639a9c842f64bfbfd4367dc4db73f1bd8e384d0d6f0fb830ca2f63"
+hash = "7b36011dea8c4ab2666fdf4233975d81ca711787c62024f4d2fda7d7df0d2e93"
