@@ -2,47 +2,47 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/chunky.pw.toml"
-hash = "764fc67f1f0bf1265787d3b840b0db45abbcba76ea6334df362d04b893161688"
+hash = "6ee5fbe64ee5f356ad8960fe7504518eaf62b6ff6b1454ff1f673c1a4af6cd89"
 metafile = true
 
 [[files]]
 file = "mods/dynmap.pw.toml"
-hash = "e4c36e176df4db2ff46a9176c52093833ecdda5729553dff6441a9525b917bb1"
+hash = "ea871294a306560826bddb08e3ee5217867e9693fc77028df62369de5710f0c5"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "27961ae7064f3d5bf08122e37179f475a6d8c8cfc0792d1733c68af697610940"
+hash = "b9f5aa25789de9f187d42226a72451a43f5c02b8f076d3239177063a7ffffe2e"
 metafile = true
 
 [[files]]
 file = "mods/fabricproxy-lite.pw.toml"
-hash = "6ede81dde22673d455419b0b4eaa7c17ea1fad8b57c6e0231f18714444d56c25"
+hash = "86182ba02e03a0ee95cd32548cf0e46991b06e4888a067d1a3ebf39f66c192f3"
 metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-hash = "60fd3e6743b309d3b063876580cb8a1f3276c562af24834cc877dc2370061420"
+hash = "0bda2bc07cae83e84c7f83617670587ce763ecaa77798b68dd7ce58ab9efc9d4"
 metafile = true
 
 [[files]]
 file = "mods/krypton.pw.toml"
-hash = "4712a42f2a44845a7174d3bbef184b92f63798cc166f033cd3cb322914187905"
+hash = "e1de400aa9339a9e7f1baf4e04a8d812c1b4cc89d7755846cdf115fd7d270425"
 metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "1cb27933f3015a3dd35bfe96ba6d34ece764a0bf1f07958fc00d77d8095da9df"
+hash = "2766061d8585b7bf3e6fa84530776edd1c2186616733c90dc3fb586bcf5559bc"
 metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "c37ffbf5483b3162faba5eb5dfdf9b696103c9ba9dbace6be484fa36a833abb9"
+hash = "ac480c46da70f99ce7e197d2006f127575529330ac2a3b16559a03a4d17fca86"
 metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "e31c77c9807e29d8e8fb773cff75056780ddc8730a40bb95b63f4c30ae3b99d5"
+hash = "0486c6b7f28a5250d8db2701b897bbeaf07cb00cd5d8c8ad5e48aba2ed85ad40"
 metafile = true
 
 [[files]]
