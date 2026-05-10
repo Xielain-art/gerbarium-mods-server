@@ -104,6 +104,11 @@
             "url": "https://modrinth.com/mod/crossstitch",
             "client": false,
             "server": true
+        },
+        {
+            "url": "https://modrinth.com/plugin/simple-voice-chat",
+            "client": true,
+            "server": true
         }
     ]
 }
