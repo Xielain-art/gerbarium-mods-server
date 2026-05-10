@@ -129,6 +129,11 @@
             "url": "https://modrinth.com/mod/litematica",
             "client": true,
             "server": false
+        },
+        {
+            "url": "https: //modrinth.com/mod/malilib",
+            "client": true,
+            "server": false
         }
     ]
 }
