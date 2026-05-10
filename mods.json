@@ -79,6 +79,11 @@
             "url": "https://modrinth.com/mod/fabric-seasons-extras",
             "client": true,
             "server": true
+        },
+        {
+            "url": "https://modrinth.com/plugin/luckperms",
+            "client": false,
+            "server": true
         }
     ]
 }
