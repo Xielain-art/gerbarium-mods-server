@@ -107,7 +107,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "2766061d8585b7bf3e6fa84530776edd1c2186616733c90dc3fb586bcf5559bc"
+hash = "c8695e51366b601c5e9118a5d5650d234cc25fc8d1f90ebd186c17c199ba7fca"
 metafile = true
 
 [[files]]
@@ -118,6 +118,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "ac480c46da70f99ce7e197d2006f127575529330ac2a3b16559a03a4d17fca86"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "246f3d67abead6d493f665fea31b592c1e03ec151cb2c1ef32067c8cea55844e"
 metafile = true
 
 [[files]]
