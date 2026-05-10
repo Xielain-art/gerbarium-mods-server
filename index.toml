@@ -16,6 +16,11 @@ hash = "e12dce3e543168379a2856c66064ee2001e6420a9dfc6163f37b78e518947456"
 metafile = true
 
 [[files]]
+file = "mods/axiom.pw.toml"
+hash = "df5d83938f4d23851a4c3bab631ae7c2de33dbd7bf3be77954d31e2854eda8ba"
+metafile = true
+
+[[files]]
 file = "mods/boat-item-view.pw.toml"
 hash = "d6878871a07870b33821beed20118368e779c17574062d5d771eb38b9403e875"
 metafile = true
