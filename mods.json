@@ -109,6 +109,11 @@
             "url": "https://modrinth.com/plugin/simple-voice-chat",
             "client": true,
             "server": true
+        },
+        {
+            "url": "https://modrinth.com/mod/axiom",
+            "client": true,
+            "server": false
         }
     ]
 }
