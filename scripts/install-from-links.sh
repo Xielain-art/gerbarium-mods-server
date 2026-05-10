@@ -49,8 +49,8 @@ get_side() {
 extract_slug_from_url() {
   local url="$1"
 
-  if [[ "$url" =~ modrinth\.com/mod/([^/?#]+) ]]; then
-    echo "${BASH_REMATCH[1]}"
+  if [[ "$url" =~ modrinth\.com/(mod|plugin)/([^/?#]+) ]]; then
+    echo "${BASH_REMATCH[2]}"
     return 0
   elif [[ "$url" =~ curseforge\.com/minecraft/mc-mods/([^/?#]+) ]]; then
     echo "${BASH_REMATCH[1]}"
@@ -63,7 +63,7 @@ extract_slug_from_url() {
 extract_source_from_url() {
   local url="$1"
 
-  if [[ "$url" =~ modrinth\.com/mod/([^/?#]+) ]]; then
+  if [[ "$url" =~ modrinth\.com/(mod|plugin)/([^/?#]+) ]]; then
     echo "modrinth"
     return 0
   elif [[ "$url" =~ curseforge\.com/minecraft/mc-mods/([^/?#]+) ]]; then
@@ -102,7 +102,7 @@ find_mod_file_by_filename() {
     return 1
   fi
 
-  grep -Rsl "filename = \"$filename\"" mods/*.pw.toml 2>/dev/null | head -n 1
+  grep -Rsl "filename = \"$filename\"" mods/*.pw.toml 2>/dev/null | head -n 1 || true
 }
 
 find_mod_file_by_modrinth_slug() {
@@ -118,7 +118,7 @@ find_mod_file_by_modrinth_slug() {
     return 1
   fi
 
-  grep -Rsl "mod-id = \"$project_id\"" mods/*.pw.toml 2>/dev/null | head -n 1
+  grep -Rsl "mod-id = \"$project_id\"" mods/*.pw.toml 2>/dev/null | head -n 1 || true
 }
 
 find_mod_file_by_slug_fallback() {

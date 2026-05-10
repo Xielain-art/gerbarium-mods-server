@@ -42,7 +42,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.local/bin/packwiz
-          key: ${{ runner.os }}-packwiz-latest-v1
+          key: ${{ runner.os }}-packwiz-latest-v2
 
       - name: Install packwiz
         if: steps.cache-packwiz.outputs.cache-hit != 'true'
@@ -86,7 +86,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add pack.toml index.toml mods mods.json
+          git add pack.toml index.toml mods mods.json .packwizignore
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
