@@ -116,6 +116,11 @@ hash = "37a7d1027ff7e8cf88ae180a31de5a17f4b71f13b2f0d9b132b7d6222f58a1a1"
 metafile = true
 
 [[files]]
+file = "mods/litematica.pw.toml"
+hash = "8a786b5c9b67df34894f944708f722ef3ade67ea3c3aa4997144314c26f847f7"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "1fd083d509f3f73ca26244e8fddef9ddcc6da8518c839569b42fdb8380a54e87"
 metafile = true
@@ -123,6 +128,11 @@ metafile = true
 [[files]]
 file = "mods/luckperms.pw.toml"
 hash = "ed322399f2f703b5cc9f6652d85e8eb215a53c7acbeef27964c0d6af7400561a"
+metafile = true
+
+[[files]]
+file = "mods/malilib.pw.toml"
+hash = "6bfb82960a27af2c360036e01c0131c3ad9c778b4ba5e3df51bafe4f175317db"
 metafile = true
 
 [[files]]
