@@ -31,6 +31,21 @@ REMOVED=()
 FAILED=()
 SKIPPED=()
 
+get_json_bool() {
+  local index="$1"
+  local key="$2"
+  local default_value="$3"
+
+  jq -r "
+    .mods[$index] as \$mod
+    | if \$mod | has(\"$key\") then
+        \$mod.$key
+      else
+        $default_value
+      end
+  " "$MODS_JSON"
+}
+
 get_side() {
   local client="$1"
   local server="$2"
@@ -250,9 +265,10 @@ count="$(jq '.mods | length' "$MODS_JSON")"
 
 for i in $(seq 0 $((count - 1))); do
   url="$(jq -r ".mods[$i].url" "$MODS_JSON")"
-  client="$(jq -r ".mods[$i].client // true" "$MODS_JSON")"
-  server="$(jq -r ".mods[$i].server // true" "$MODS_JSON")"
-  enabled="$(jq -r ".mods[$i].enabled // true" "$MODS_JSON")"
+
+  client="$(get_json_bool "$i" "client" "true")"
+  server="$(get_json_bool "$i" "server" "true")"
+  enabled="$(get_json_bool "$i" "enabled" "true")"
 
   echo ""
   echo "========================================"
