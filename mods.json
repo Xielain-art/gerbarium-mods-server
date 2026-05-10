@@ -99,6 +99,11 @@
             "url": "https://modrinth.com/mod/fabric-api",
             "client": true,
             "server": true
+        },
+        {
+            "url": "https://modrinth.com/mod/crossstitch",
+            "client": false,
+            "server": true
         }
     ]
 }
