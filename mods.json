@@ -74,6 +74,11 @@
             "url": "https://modrinth.com/mod/fallingleaves",
             "client": true,
             "server": false
+        },
+        {
+            "url": "https://modrinth.com/mod/fabric-seasons-extras",
+            "client": true,
+            "server": true
         }
     ]
 }
