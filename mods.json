@@ -84,6 +84,21 @@
             "url": "https://modrinth.com/plugin/luckperms",
             "client": false,
             "server": true
+        },
+        {
+            "url": "https://modrinth.com/mod/lithium",
+            "client": true,
+            "server": false
+        },
+        {
+            "url": "https://modrinth.com/mod/modmenu",
+            "client": true,
+            "server": false
+        },
+        {
+            "url": "https://modrinth.com/mod/fabric-api",
+            "client": true,
+            "server": true
         }
     ]
 }
