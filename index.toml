@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
-hash = "fd5250ec5868a1475ae5a82c7d58f83a459b1e7b58e3468c5cad060df7da3090"
+hash = "e3714f163dd8d1751d186221ad0049dc5719a2d6537ddfbc4e3403f769cffe2c"
 metafile = true
 
 [[files]]
@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/boat-item-view.pw.toml"
-hash = "b24228a867dd1e0a45ac38b17b91f08780d4ba89c130be6633d1f0f70a6a655d"
+hash = "d6878871a07870b33821beed20118368e779c17574062d5d771eb38b9403e875"
 metafile = true
 
 [[files]]
@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/clumps.pw.toml"
-hash = "15385164e2cd07cce7493a10d6d87df5c7bce587a866613126be3b54b6b28fc7"
+hash = "ddc991dfa762aeba4304f7e9155b00a5c8b98947a0a44006043b0001bcdb7f42"
 metafile = true
 
 [[files]]
@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/fallingleaves.pw.toml"
-hash = "83d25d7f9a87040b2453b7eb6448b38fb415031648b76eff0117e150bbdbe472"
+hash = "fff1e00559f13c092b17fa83804279cf70191d7a99a4a98a4eb6bb30ac9a78db"
 metafile = true
 
 [[files]]
@@ -107,12 +107,12 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "c8695e51366b601c5e9118a5d5650d234cc25fc8d1f90ebd186c17c199ba7fca"
+hash = "1fd083d509f3f73ca26244e8fddef9ddcc6da8518c839569b42fdb8380a54e87"
 metafile = true
 
 [[files]]
 file = "mods/luckperms.pw.toml"
-hash = "7fa8795248f8813dbda62b9ef3e3f718368857ad1b0498362ea11bb1399bd229"
+hash = "ed322399f2f703b5cc9f6652d85e8eb215a53c7acbeef27964c0d6af7400561a"
 metafile = true
 
 [[files]]
@@ -122,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "246f3d67abead6d493f665fea31b592c1e03ec151cb2c1ef32067c8cea55844e"
+hash = "d7145fd1bd8b4bb6a3b84652a96a68870fb3ab32230f27520bb9362fd17ec39f"
 metafile = true
 
 [[files]]
@@ -177,5 +177,5 @@ metafile = true
 
 [[files]]
 file = "mods/yungs-better-dungeons.pw.toml"
-hash = "660ec443fe901efb46da60ef5f4578fe5d20f5aa7c6aa3baf2199593019514f0"
+hash = "0958d9f10d0e8fb282b8e684b05b37b29aca826d48deeec3e44171857c99aca5"
 metafile = true
