@@ -41,6 +41,11 @@ hash = "22ea62bf986d0de86f7acf09cd7226026e95ad8c1126ac124ca96126927802a3"
 metafile = true
 
 [[files]]
+file = "mods/crossstitch.pw.toml"
+hash = "899a506ec93d9bbc84e58aebeb369847493f97a4383e6691a5d51dbb9c2f6ea2"
+metafile = true
+
+[[files]]
 file = "mods/dehydration.pw.toml"
 hash = "4ffee411da4fc66404fcc3211efc76c11e5301dfec6628d65a2178b901b8474d"
 metafile = true
