@@ -116,7 +116,7 @@
             "server": false
         },
         {
-            "url": "https://modrinth.com/plugin/worldedit",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/worldedit",
             "client": false,
             "server": true
         },
