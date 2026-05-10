@@ -114,6 +114,21 @@
             "url": "https://modrinth.com/mod/axiom",
             "client": true,
             "server": false
+        },
+        {
+            "url": "https://modrinth.com/plugin/worldedit",
+            "client": false,
+            "server": true
+        },
+        {
+            "url": "https://modrinth.com/mod/worldedit-cui",
+            "client": true,
+            "server": false
+        },
+        {
+            "url": "https://modrinth.com/mod/litematica",
+            "client": true,
+            "server": false
         }
     ]
 }
