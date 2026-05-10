@@ -191,6 +191,11 @@ hash = "91b8d6b01c363cf2e593e5d8725e6b0aaa61347e4fa2a19575e9ed16f1633dff"
 metafile = true
 
 [[files]]
+file = "mods/worldedit.pw.toml"
+hash = "315afc024f86659bb71ee99e0232396d4740c1c9ffabd2a244d4c9dfecbb9562"
+metafile = true
+
+[[files]]
 file = "mods/yigd.pw.toml"
 hash = "fc1d7a1ee1bb2d4906b2686d105c82b67297e8a8376bd3882fea0fdb7e6499eb"
 metafile = true
