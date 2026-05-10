@@ -121,7 +121,7 @@
             "server": true
         },
         {
-            "url": "https://modrinth.com/mod/worldedit-cui",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/worldeditcui-fabric",
             "client": true,
             "server": false
         },
