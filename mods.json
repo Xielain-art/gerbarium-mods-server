@@ -179,6 +179,11 @@
       "url": "https://modrinth.com/mod/owo-lib",
       "client": true,
       "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/patchouli",
+      "client": true,
+      "server": true
     }
   ]
 }
