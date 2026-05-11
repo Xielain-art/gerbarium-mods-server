@@ -1,139 +1,180 @@
 {
-    "mods": [
-        {
-            "url": "https://modrinth.com/mod/immersive-weathering",
-            "client": true,
-            "server": true
-        },
-        {
-            "url": "https://modrinth.com/mod/winter-overhaul",
-            "client": true,
-            "server": true
-        },
-        {
-            "url": "https://modrinth.com/mod/naturalist",
-            "client": true,
-            "server": true
-        },
-        {
-            "url": "https://modrinth.com/mod/frostiful",
-            "client": true,
-            "server": true
-        },
-        {
-            "url": "https://modrinth.com/mod/amendments",
-            "client": true,
-            "server": true
-        },
-        {
-            "url": "https://modrinth.com/mod/clumps",
-            "client": false,
-            "server": true
-        },
-        {
-            "url": "https://modrinth.com/mod/dehydration",
-            "client": true,
-            "server": true
-        },
-        {
-            "url": "https://modrinth.com/mod/yigd",
-            "client": true,
-            "server": true
-        },
-        {
-            "url": "https://modrinth.com/mod/fabric-seasons",
-            "client": true,
-            "server": true
-        },
-        {
-            "url": "https://modrinth.com/mod/yungs-better-dungeons",
-            "client": false,
-            "server": true
-        },
-        {
-            "url": "https://modrinth.com/mod/regions-unexplored",
-            "client": true,
-            "server": true
-        },
-        {
-            "url": "https://modrinth.com/mod/architectury-api",
-            "client": true,
-            "server": true
-        },
-        {
-            "url": "https://modrinth.com/mod/ambientsounds",
-            "client": true,
-            "server": false
-        },
-        {
-            "url": "https://modrinth.com/mod/boat-item-view",
-            "client": true,
-            "server": false
-        },
-        {
-            "url": "https://modrinth.com/mod/fallingleaves",
-            "client": true,
-            "server": false
-        },
-        {
-            "url": "https://modrinth.com/mod/fabric-seasons-extras",
-            "client": true,
-            "server": true
-        },
-        {
-            "url": "https://modrinth.com/plugin/luckperms",
-            "client": false,
-            "server": true
-        },
-        {
-            "url": "https://modrinth.com/mod/lithium",
-            "client": true,
-            "server": false
-        },
-        {
-            "url": "https://modrinth.com/mod/modmenu",
-            "client": true,
-            "server": false
-        },
-        {
-            "url": "https://modrinth.com/mod/fabric-api",
-            "client": true,
-            "server": true
-        },
-        {
-            "url": "https://modrinth.com/mod/crossstitch",
-            "client": false,
-            "server": true
-        },
-        {
-            "url": "https://modrinth.com/plugin/simple-voice-chat",
-            "client": true,
-            "server": true
-        },
-        {
-            "url": "https://modrinth.com/mod/axiom",
-            "client": true,
-            "server": false
-        },
-        {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/worldedit",
-            "client": false,
-            "server": true
-        },
-        {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/worldeditcui-fabric",
-            "client": true,
-            "server": false
-        },
-        {
-            "url": "https://modrinth.com/mod/litematica",
-            "client": true,
-            "server": false
-        },
-        {
-            "url": "https: //modrinth.com/mod/malilib",
-            "client": true,
-            "server": false
-        }
-    ]
+  "mods": [
+    {
+      "url": "https://modrinth.com/mod/immersive-weathering",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/winter-overhaul",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/naturalist",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/frostiful",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/amendments",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/clumps",
+      "client": false,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/dehydration",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/yigd",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/fabric-seasons",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/yungs-better-dungeons",
+      "client": false,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/regions-unexplored",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/architectury-api",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/ambientsounds",
+      "client": true,
+      "server": false
+    },
+    {
+      "url": "https://modrinth.com/mod/boat-item-view",
+      "client": true,
+      "server": false
+    },
+    {
+      "url": "https://modrinth.com/mod/fallingleaves",
+      "client": true,
+      "server": false
+    },
+    {
+      "url": "https://modrinth.com/mod/fabric-seasons-extras",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/plugin/luckperms",
+      "client": false,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/lithium",
+      "client": true,
+      "server": false
+    },
+    {
+      "url": "https://modrinth.com/mod/modmenu",
+      "client": true,
+      "server": false
+    },
+    {
+      "url": "https://modrinth.com/mod/fabric-api",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/crossstitch",
+      "client": false,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/plugin/simple-voice-chat",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/axiom",
+      "client": true,
+      "server": false
+    },
+    {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/worldedit",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/worldeditcui-fabric",
+      "client": true,
+      "server": false
+    },
+    {
+      "url": "https://modrinth.com/mod/litematica",
+      "client": true,
+      "server": false
+    },
+    {
+      "url": "https://modrinth.com/mod/malilib",
+      "client": true,
+      "server": false
+    },
+
+    {
+      "url": "https://modrinth.com/mod/rhino",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/kubejs",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/kubejs-additions",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/morejs",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/lootjs",
+      "client": false,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/mob-control",
+      "client": true,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/mobfilter",
+      "client": false,
+      "server": true
+    },
+    {
+      "url": "https://modrinth.com/mod/probejs",
+      "client": true,
+      "server": false
+    }
+  ]
 }
