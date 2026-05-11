@@ -1,0 +1,13 @@
+name = "Mob Control"
+filename = "mobcontrol-1.20.1-2.0.0-beta-4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4gTwBSot/versions/4qQV56QO/mobcontrol-1.20.1-2.0.0-beta-4.jar"
+hash-format = "sha512"
+hash = "13b7dab51d9a5e994e15292b95aaff573425759c7ef5499a66150e3f2c21756535247845a7735991490bd8d745a2990f0a7de6611a64ea7525834924324bc973"
+
+[update]
+[update.modrinth]
+mod-id = "4gTwBSot"
+version = "4qQV56QO"

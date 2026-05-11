@@ -116,6 +116,16 @@ hash = "37a7d1027ff7e8cf88ae180a31de5a17f4b71f13b2f0d9b132b7d6222f58a1a1"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-additions.pw.toml"
+hash = "f2fac3e43ccdddab1ab4fb35915fe32b5190293b2e2e7e2f5403a0f86ddda8bf"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "968ebc0ac017432971e093cf7ac83657d2dcf30014d5549402a431a2bd8be95f"
+metafile = true
+
+[[files]]
 file = "mods/litematica.pw.toml"
 hash = "8a786b5c9b67df34894f944708f722ef3ade67ea3c3aa4997144314c26f847f7"
 metafile = true
@@ -126,6 +136,11 @@ hash = "1fd083d509f3f73ca26244e8fddef9ddcc6da8518c839569b42fdb8380a54e87"
 metafile = true
 
 [[files]]
+file = "mods/lootjs.pw.toml"
+hash = "61d044ff79ee9910cb74012892108918c337057147b431733715d2b7444368b5"
+metafile = true
+
+[[files]]
 file = "mods/luckperms.pw.toml"
 hash = "ed322399f2f703b5cc9f6652d85e8eb215a53c7acbeef27964c0d6af7400561a"
 metafile = true
@@ -133,6 +148,16 @@ metafile = true
 [[files]]
 file = "mods/malilib.pw.toml"
 hash = "6bfb82960a27af2c360036e01c0131c3ad9c778b4ba5e3df51bafe4f175317db"
+metafile = true
+
+[[files]]
+file = "mods/mob-control.pw.toml"
+hash = "b60bc39b370e8d3a37f001c7ee726281fd16f722d8ff4b9c8e024c3798907ba9"
+metafile = true
+
+[[files]]
+file = "mods/mobfilter.pw.toml"
+hash = "742d6f02c7f80298ed78ff1be3b010acd57f64386114e30a91e67ca285196ac9"
 metafile = true
 
 [[files]]
@@ -151,13 +176,28 @@ hash = "9df70e05075bc6e043d9defcd67e9596235ca7667acba8ea64f2cbe5f27eab0b"
 metafile = true
 
 [[files]]
+file = "mods/morejs.pw.toml"
+hash = "4741ae3083693dc82e6f2c5d1b0049b342133a89d1245992d2a2fd15d7aafe2e"
+metafile = true
+
+[[files]]
 file = "mods/naturalist.pw.toml"
 hash = "2149e8ba3fc2c56905e6bbc06efd4ece5999d8babea605386ec5bd1af26aef90"
 metafile = true
 
 [[files]]
+file = "mods/probejs.pw.toml"
+hash = "81bd6dbe339bd8eff731595e86be456e59c0de4d1382cee6593d557070a24436"
+metafile = true
+
+[[files]]
 file = "mods/regions-unexplored.pw.toml"
 hash = "1dec5eab016f2b91c2b4c39cb6d0c3f9c9e0f41de359670e9518078dd788240f"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "82c3a531c2180cd45f59e433315e31dc886c464a05ea38ea0b82ce1bc033c520"
 metafile = true
 
 [[files]]
@@ -192,7 +232,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "315afc024f86659bb71ee99e0232396d4740c1c9ffabd2a244d4c9dfecbb9562"
+hash = "bd1dc13316e2aa9b56c89e7e974057f8da8d6bbfe707ba4210109fc612b782e3"
 metafile = true
 
 [[files]]
