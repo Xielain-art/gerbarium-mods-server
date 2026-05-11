@@ -191,6 +191,11 @@ hash = "df4c4fe3aff1792aa7d19d097d5d1bc0c6e958e6e4ee32dbf148ecac62e1274d"
 metafile = true
 
 [[files]]
+file = "mods/patchouli.pw.toml"
+hash = "b087d57e8f876873a4eaeacdb80166c03e5158fa95cb15ffe6aa9571b76bf9d2"
+metafile = true
+
+[[files]]
 file = "mods/probejs.pw.toml"
 hash = "81bd6dbe339bd8eff731595e86be456e59c0de4d1382cee6593d557070a24436"
 metafile = true
